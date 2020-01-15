@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "s-pfx-crud-operation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sPfxCrudOperation/SPfxCrudOperationWebPart.js",
+          "manifest": "./src/webparts/sPfxCrudOperation/SPfxCrudOperationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SPfxCrudOperationWebPartStrings": "lib/webparts/sPfxCrudOperation/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "s-pfx-crud-operation-client-side-solution",
+    "id": "9aa76a82-606c-4506-9804-af8b8835fceb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/s-pfx-crud-operation.sppkg"
+  }
+}
