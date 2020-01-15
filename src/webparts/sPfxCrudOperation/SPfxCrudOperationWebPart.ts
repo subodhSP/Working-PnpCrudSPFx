@@ -29,6 +29,7 @@ export default class SPfxCrudOperationWebPart extends BaseClientSideWebPart <ISP
     
    }
    public onInit(): Promise<void> {
+     console.log('init called');
     return super.onInit().then(_ => {  
       pnp.setup({
         spfxContext: this.context
@@ -123,7 +124,6 @@ export default class SPfxCrudOperationWebPart extends BaseClientSideWebPart <ISP
      `;
 this.getListData();
 this.AddEventListeners();
-
   }
  
   private AddItem()
