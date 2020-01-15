@@ -125,8 +125,7 @@ this.getListData();
 this.AddEventListeners();
 
   }
-
-  
+ 
   private AddItem()
   {  
      
