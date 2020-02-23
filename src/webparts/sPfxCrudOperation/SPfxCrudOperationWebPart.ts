@@ -16,7 +16,8 @@ import { ISPfxCrudOperationProps } from './ISPfxCrudOperationProps';
 	  ID: string;
 	  EmployeeName: string;
 	  Experience: string;
-	  Location: string;
+    Location: string;
+    
 	} 
 
 export default class SPfxCrudOperationWebPart extends BaseClientSideWebPart <ISPfxCrudOperationProps> {
