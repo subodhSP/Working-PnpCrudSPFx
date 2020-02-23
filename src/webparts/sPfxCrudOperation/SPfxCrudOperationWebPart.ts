@@ -11,12 +11,16 @@ import styles from './SPfxCrudOperationWebPart.module.scss';
 import * as strings from 'SPfxCrudOperationWebPartStrings';
 import { ISPfxCrudOperationProps } from './ISPfxCrudOperationProps';
 
-    export interface ISPList     
+    
+
+
+
+export interface ISPList     
     {
 	  ID: string;
 	  EmployeeName: string;
 	  Experience: string;
-	  Location: string;
+    Location: string;    
 	} 
 
 export default class SPfxCrudOperationWebPart extends BaseClientSideWebPart <ISPfxCrudOperationProps> {
